@@ -50,8 +50,8 @@ print(max_qualities)
 count=0
 min_dis=999999999999999999
 
-for coordinates in bride:
-    if(max_qualities==bride[coordinates]):
+for coordinates in bride: # type: ignore
+    if(max_qualities==bride[coordinates]): # type: ignore
         cur_distance=max(coordinates[0],coordinates[1])
         if(cur_distance==min_dis):
             count+=1   
