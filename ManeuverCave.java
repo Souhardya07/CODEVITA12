@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ManeuverCave {
+ class ManeuverCave {
  
      static int path(int m , int n) {
          if(m==1 || n==1) 
