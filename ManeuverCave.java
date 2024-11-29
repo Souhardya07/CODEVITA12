@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
  class ManeuverCave {
  
      static int path(int m , int n) {
